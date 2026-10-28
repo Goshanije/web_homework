@@ -4,59 +4,410 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
+    <main class="main-block">
+        <section class="section-welcome">
+            <header class="header-block">
+                <div class="header-logo">
+                    <p>IT WEBSITE</p>
+                </div>
 
-    <header>
-        <img src="images/logo.png" alt="логотип" style="width: 50px;">
-        <nav class="navigation">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+                <nav class="header-nav">
+                    <ul>
+                        <li>Services</li>
+                        <li>Media</li>
+                        <li>Cases</li>
+                        <li>FAQ</li>
+                        <li>Contacts</li>
+                    </ul>
+                </nav>
 
-    <main>
-        <h1 class="main_title">Мой крутой сайт</h1>
+                <div class="header-contacts">
+                    <img src="images/phone.svg" alt="иконка телефона">
+                    <a href="tel:+71111111111">+7 (111) 111 11 11</a>
+                    <a href="tel:+71111111111">+7 (111) 111 11 11</a>
 
-        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit debitis sapiente dolores ab perferendis nam voluptatum consequuntur enim ut? Magni, magnam? Asperiores aspernatur officia dolorum eius iste molestias nemo. Voluptatibus quasi explicabo enim qui ipsum dignissimos aliquam. Sunt, alias maiores iusto sequi dolore dolorum repudiandae vel odio? Quos eaque porro perferendis nobis?</p>
+                    <img src="images/mail.svg" alt="иконка письма">
+                    <a href="mailtro:itcompany@mail.com">itcompany@mail.com</a>
+                </div>
+            </header>
 
-        <h3 class="h3_title">Lorem, ipsum dolor.</h3>
+            <div class="about-company">
+                <h1>Development of mobile applications and web services of any complexity</h1>
+                <p>We create mobile applications for iOS, Android that transfer your business to mobile applications of your customers' devices</p>
+            </div>
 
-        <h4 class="h4_title">Lorem ipsum dolor sit amet.</h4>
+            <div class="get-consultation">
+                <h3>Leave your contacts and we will call you back within 30 minutes</h3>
 
-        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur neque cumque non! Architecto, vero pariatur!</p>
+                <form action="#" class="form-get-consultation">
+                    <label for="phone">Phone number</label>
+                    <img src="images/flag.png" alt="флаг казахстана">
+                    <input type="tel" name="phone" id="phone">
 
-        <h3>Lorem, ipsum dolor.</h3>
+                    <label for="name">Full names</label>
+                    <input type="text" name="name" id="name">
 
-        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eos?</p>
+                    <button>Get consultation</button>
+                </form>
+            </div>
 
-        <hr>
+            <img src="images/welcome.png" alt="телефон на заднем плане">
+        </section>
+
+        <section class="development-cycle">
+            <div class="title-info">
+                <h2>Full development cycle</h2>
+                <p>We use proven technologies</p>
+            </div>
+
+            <div class="usen-techonologies">
+                <div class="web">
+                    <h3>Web</h3>
+                    <p>PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ Nuxt / MySQL / Laravel / GO lang / django / Python</p>
+                </div>
+
+                <div class="mobile">
+                    <h3>Mobile</h3>
+                    <p>Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm / Coroutine / RxJava / RxSwift / Unit Test / Navigation</p>
+                </div>
+            </div>
+
+            <div class="other-info-links">
+                <div class="other-info-link">
+                    <a href="#">iOS  development</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+                <div class="other-info-link">
+                    <a href="#">Android development</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+                <div class="other-info-link">
+                    <a href="#">Web development</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+                <div class="other-info-link">
+                    <a href="#">UI/UX design</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+                <div class="other-info-link">
+                    <a href="#">Testing</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+                <div class="other-info-link">
+                    <a href="#">Launch</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+                <div class="other-info-link">
+                    <a href="#">IT consulting</a>
+                    <img src="images/strelka.svg" alt="стрелочка">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-projects">
+            <div class="projects-in-industries">
+                <h2>Developed more than 100 projects in 15 industries</h2>
+                
+                <div class="first-icons-block">
+                    <ul>
+                        <li>
+                            <img src="images/icon1-1.svg" alt="Social media icon">
+                            <p>Social media</p>
+                        </li>
+                        <li>
+                            <img src="images/icon1-2.svg" alt="Fitness and sport icon">
+                            <p>Fitness and sport</p>
+                        </li>
+                        <li>
+                            <img src="images/icon1-3.svg" alt="Bank icon">
+                            <p>Bank</p>
+                        </li>
+                        <li>
+                            <img src="images/icon1-4.svg" alt="Construction icon">
+                            <p>Construction</p>
+                        </li>
+                        <li>
+                            <img src="images/icon1-5.svg" alt="Game projects icon">
+                            <p>Game projects</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="second-icons-block">
+                    <ul>
+                        <li>
+                            <img src="images/icon2-1.svg" alt="Education icon">
+                            <p>Education</p>
+                        </li>
+                        <li>
+                            <img src="images/icon2-2.svg" alt="Auto, transport icon">
+                            <p>Auto, transport</p>
+                        </li>
+                        <li>
+                            <img src="images/icon2-3.svg" alt="Medicine, health icon">
+                            <p>Medicine, health</p>
+                        </li>
+                        <li>
+                            <img src="images/icon2-4.svg" alt="Restaurants, food delivery icon">
+                            <p>Restaurants, food delivery</p>
+                        </li>
+                        <li>
+                            <img src="images/icon2-5.svg" alt="Marketplaces icon">
+                            <p>Marketplaces</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="third-icons-block">
+                    <ul>
+                        <li>
+                            <img src="images/icon3-1.svg" alt="AR technology icon">
+                            <p>AR technology</p>
+                        </li>
+                        <li>
+                            <img src="images/icon3-2.svg" alt="TV series icon">
+                            <p>TV series</p>
+                        </li>
+                        <li>
+                            <img src="images/icon3-3.svg" alt="Startups icon">
+                            <p>Startups</p>
+                        </li>
+                        <li>
+                            <img src="images/icon3-4.svg" alt="Religion icon">
+                            <p>Religion</p>
+                        </li>
+                        <li>
+                            <img src="images/icon3-5.svg" alt="Online cources icon">
+                            <p>Online cources</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="prouded-projects">
+                <h2>Projects we are proud of</h2>
+                <p>Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a long-term partnership</p>
+
+                <nav class="projects-nav">
+                    <ul>
+                        <li>I-teka</li>
+                        <li>Dauletten</li>
+                        <li>Guru Bosch</li>
+                        <li>Santo</li>
+                        <li>Home Credit Bank</li>
+                        <li>BI Partners</li>
+                        <li>Europharma</li>
+                        <li>View 100 more projects</li>
+                    </ul>
+                </nav>
+
+                <div class="i-teka">
+                    <div class="i-teka-main-ifo">
+                        <h2>I-teka</h2>
+                        <p>The application is designed to search for drugs by availability in pharmacies in cities. During quarantine, the application helped many people, which gives more value.</p>
+                        <p>Business analysis / iOS / Android / QA / UI/UX Design</p>
+                    </div>
+
+                    <div class="kazakhstan">
+                        <img src="images/kazakhstan-icon.svg" alt="kazakhstan icon">
+                        <p>Kazakhstan</p>
+                    </div>
+                    <div class="medicine">
+                        <img src="images/medicine-icon.svg" alt="Medicine icon">
+                        <p>Medicine</p>
+                    </div>
+
+                    <div class="statistic-user-growth">
+                        <h3>400%</h3>
+                        <p>User Growth</p>
+                    </div>
+                    <div class="statistic-active-users">
+                        <h3>+ 200 000</h3>
+                        <p>Active Users</p>
+                    </div>
+
+                    <div class="download-links">
+                        <a href="#">
+                            <img src="images/download-apple.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/download-google.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <img src="images/prouded-projects.png" alt="картинка телефона">
+            </div>
+        </section>
+
+        <section class="discuss-project">
+            <div class="discuss-project-info">
+                <h2>Let's discuss Your project</h2>
+                <p>Let's figure out how to create an effective application, its cost and terms of its development</p>
+            </div>
+
+            <form action="#">
+                <label for="best-phone">Best phone number</label>
+                <img src="images/flag.png" alt="флаг казахстана">
+                <input type="text" name="best-phone" id="best-phone">
+
+                <label for="full-name">Full name</label>
+                <input type="text" name="full-name" id="full-name">
+
+                <button type="submit">Discuss the project</button>
+            </form>
+        </section>
+
+        <section class="app-stages">
+            <h2>Application Development Stages</h2>
+
+            <div class="app-stages-block">
+                <img src="images/app-stages-icon1.svg" alt="Analysis icon">
+                <h3>Analysis</h3>
+                <p>We write technical specifications for development, taking into account the business processes and technologies of the customer and the needs of users.</p>
+            </div>
+
+            <div class="app-stages-block">
+                <img src="images/app-stages-icon2.svg" alt="Design icon">
+                <h3>Design</h3>
+                <p>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
+            </div>
+
+            <div class="app-stages-block">
+                <img src="images/app-stages-icon3.svg" alt="Development icon">
+                <h3>Development</h3>
+                <p>We create an extensible architecture, write clean and stable code. We integrate with customer technologies.</p>
+            </div>
+
+            <div class="app-stages-block">
+                <img src="images/app-stages-icon4.svg" alt="Testing icon">
+                <h3>Testing</h3>
+                <p>We carry out functional testing and do bug fixes. We adapt the application to different phone resolutions</p>
+            </div>
+
+            <div class="app-stages-block">
+                <img src="images/app-stages-icon5.svg" alt="Launching icon">
+                <h3>Launching</h3>
+                <p>We design the application page and publish it in the App Store and Google Play stores.</p>
+            </div>
+
+            <div class="app-stages-block">
+                <img src="images/app-stages-icon6.svg" alt="Support icon">
+                <h3>Support</h3>
+                <p>We monitor the stability of the application, update it for new devices and versions of iOS and Android.</p>
+            </div>
+        </section>
+
+        <section class="about-team">
+            <div class="team-info">
+                <h2>Our team</h2>
+                <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and mobile development.</p>
+
+                <div class="statistic-team">
+                    <div class="team-members">
+                        <h2>28</h2>
+                        <p>team members</p>
+                    </div>
+                    <div class="count-projects">
+                        <h2>+100</h2>
+                        <p>projects</p>
+                    </div>
+                    <div class="in-it-years">
+                        <h2>7 years</h2>
+                        <p>in IT sphere</p>
+                    </div>
+                </div>
+
+                <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
+            </div>
+
+            <div class="link-to-video">
+                <a href="#">
+                    <img src="images/preview-video.png" alt="превью видео">
+                </a>
+            </div>
+        </section>
+
+        <section class="ebook-block">
+            <h2>Get the book for free by leaving your contacts</h2>
+
+            <form action="#" class="send-ebook">
+                <label for="phone3">Phone number</label>
+                <img src="images/flag.png" alt="флаг казахстана">
+                <input type="tel" name="phone" id="phone3">
+
+                <label for="name3">Full names</label>
+                <input type="text" name="name" id="name3">
+
+                <label for="mail">email</label>
+                <input type="mail" name="mail" id="mail">
+
+                <button>Send me ebook to my mail</button>
+            </form>
+
+            <img src="images/ebook.png" alt="картинка ебука">
+        </section>
+
+        <section class="faq">
+            <h2>FAQ</h2>
+
+            <div class="faq-block">
+                <p>What is the cost of a mobile application?</p>
+                <button>
+                    <img src="images/plus-icon.svg" alt="иконка кнопки">
+                </button>
+            </div>
+            <div class="faq-block">
+                <p>Do you provide a guarantee for the mobile application?</p>
+                <button>
+                    <img src="images/plus-icon.svg" alt="иконка кнопки">
+                </button>
+            </div>
+            <div class="faq-block">
+                <p>How long will development take?</p>
+                <button>
+                    <img src="images/plus-icon.svg" alt="иконка кнопки">
+                </button>
+            </div>
+            <div class="faq-block">
+                <p>I will not tell my idea, do you guarantee confidentiality?</p>
+                <button>
+                    <img src="images/plus-icon.svg" alt="иконка кнопки">
+                </button>
+            </div>
+
+            <footer class="it-website">
+                <h2>IT WEBSITE</h2>
+
+                <div class="footer-info-block">
+                    <div class="footer-info">
+                        <img src="images/footer-phone-icon.svg" alt="иконка телефона">
+                        <p>Contact nums</p>
+                        <p>+7 (778) 395 90 26</p>
+                    </div>
+                    <div class="footer-info">
+                        <img src="images/footer-mail-icon.svg" alt="иконка почты">
+                        <p>Post</p>
+                        <p>mail@mail.com</p>
+                    </div>
+                    <div class="footer-info">
+                        <img src="images/footer-map-icon.svg" alt="иконка map">
+                        <p>Adress</p>
+                        <p>City city, steet st. 90</p>
+                    </div>
+                    <div class="footer-info">
+                        <img src="images/footer-file-icon.svg" alt="иконка файла">
+                        <p>Leave a request</p>
+                        <p>Leave a request</p>
+                    </div>
+                </div>
+
+                <div class="end-sentenses">
+                    <img src="images/world-icon.svg" alt="иконка карты казахстана">
+                    <p>We work throughout world</p>
+                </div>
+            </footer>
+        </section>
     </main>
-
-    <footer>
-        <h3 class="h3_title">Lorem, ipsum dolor.</h3>
-
-        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, deleniti.</p>
-
-        <hr>
-
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet.
-            </li>
-            <li>
-                +7 999 999 99 99
-            </li>
-            <li>
-                sobaka123@mail.ru
-            </li>
-        </ul>
-
-        <p class="paragraph">Все права защищены</p>
-    </footer>
-
 </body>
 </html>
